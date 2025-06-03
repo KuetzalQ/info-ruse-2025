@@ -1,5 +1,7 @@
 # **Week 4: Problem Solving**
 
+Quiz: https://forms.gle/HteBJjXzgSFwcx4u5
+
 Problems:
 
 _General Problem Solving:_
