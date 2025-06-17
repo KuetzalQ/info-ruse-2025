@@ -1,4 +1,4 @@
-# **Week 5: Prefix Calculations**
+# **Week 5: Sliding Window**
 
 # Github: https://github.com/KuetzalQ/info-ruse-2025/ <br>
 

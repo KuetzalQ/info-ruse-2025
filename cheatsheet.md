@@ -184,4 +184,28 @@ for (int i = 0; i < 5; i++) {
 ```
 
 ## Arrays 
-Arrays store multiple values which we can access using an index.
+Arrays store multiple values which we can access using an index. They are similar to variables, except we have to give a `position` or `index` everytime we want to retrieve something.
+
+Reading into an array:
+```c++
+
+int array[5];
+for (int i = 0; i < 5; i++) {
+    cin >> array[i];
+}
+```
+
+If we want the array to start empty, i.e. all elements are 0s, then we should declare the array _outside_ of the main loop:
+```c++
+
+int array[5];
+
+int main() {
+    
+    // do stuff with array in here
+    int test[5];
+    cout << test[0];
+
+}
+
+```

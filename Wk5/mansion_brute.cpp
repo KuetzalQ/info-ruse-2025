@@ -29,5 +29,13 @@ int main() {
 
     cout << best << "\n";
 
+    int x = 5;
+    x += 1;
+    cout << x + 3;
+
+    for (int i = 0; i < 10; i += 3) {
+        //...
+    }
+
 }
 
