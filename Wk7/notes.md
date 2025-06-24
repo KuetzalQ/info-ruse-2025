@@ -38,4 +38,5 @@ If we have no coupons, what combination of prices allows us to save the most?
 * Art Class II
 
 Harder:
+* Concealed Coconut
 * Snake Charmer
