@@ -209,3 +209,26 @@ int main() {
 }
 
 ```
+
+### Array frequency count
+```c++
+int counter[100000];
+
+int main() {
+    int N;
+    cin >> N;
+
+    for (int i = 0; i < N; i++) {
+        int x;
+        cin >> x;
+        counter[x] += 1;
+    }
+}
+```
+
+This counts the frequency of N numbers. Each number must be <= 99999. The counter array will hold how many times each number appeared, counter[x] = freq(x). For example, if the input is
+```
+5
+3 4 7 3 3
+```
+Then `counter[3] = 3`, `counter[4] = 1`, `counter[7] = 1` and `counter[1] = 0`.

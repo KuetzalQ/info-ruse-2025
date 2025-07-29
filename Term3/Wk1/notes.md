@@ -65,7 +65,7 @@ One use of arrays is to count occurences/make a frequency distribution table. Fo
 
 ![alt text](images.png)
 
-In this case the `Age`, e.g. 17 will be our index, and the frequency is stored inside the array at that index.
+In this case the `Age`, e.g. 17 will be our index, and the frequency is stored inside the array at that index. Note that these methods don't let you make variable length arrays, e.g. `int array[n] = {}`.
 
 `int ages[50] = {}` will initialise an empty array
 

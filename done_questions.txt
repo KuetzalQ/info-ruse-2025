@@ -21,3 +21,5 @@ Pygmy Hippos
 Subbookkeeper
 Shopping Spree
 Javelin
+Teletrip
+Distincto's Raffle
