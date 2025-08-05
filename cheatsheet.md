@@ -232,3 +232,17 @@ This counts the frequency of N numbers. Each number must be <= 99999. The counte
 3 4 7 3 3
 ```
 Then `counter[3] = 3`, `counter[4] = 1`, `counter[7] = 1` and `counter[1] = 0`.
+
+### Sorting
+This sorts 
+
+```c++
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5] = {7,2,4,6,1};
+    sort(arr, arr+5);
+}
+```
