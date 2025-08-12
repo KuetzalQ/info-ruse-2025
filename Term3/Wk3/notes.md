@@ -5,6 +5,12 @@
     * https://orac2.info/problem/225/
 * Castle Cavalry
     * https://orac2.info/problem/321/
+* Heatwave
+    * https://orac2.info/problem/226/
+
+Other questions:
+* Baubles 💀
+* Chimpanzee
 
 ## Sorting in C++
 

@@ -15,6 +15,15 @@ int main() {
 `using namespace std;` tells the program that the default namespace is std, so we don't have to write `std::cout`. <br>
 `int main()` is the main function, what the computer runs <br>
 
+## Include declarations
+`#include <iostream>` is for cin and cout
+
+`#include <algorithm>` is for sorting
+
+`#include <map>` is for dictionaries/maps
+
+`#include <bits/stdc++.h>` includes everything, but may not always work depending on your laptop
+
 ## Variables
 C++ is a typed language, meaning we have to tell it what type of data each variable holds.
 
@@ -234,7 +243,7 @@ This counts the frequency of N numbers. Each number must be <= 99999. The counte
 Then `counter[3] = 3`, `counter[4] = 1`, `counter[7] = 1` and `counter[1] = 0`.
 
 ### Sorting
-This sorts 
+This sorts all the numbers in the array. `arr+5` is where you want to sort up to. If you only wanted to sort the first 3 numbers, you could use `arr+3` instead.
 
 ```c++
 #include <algorithm>
@@ -246,3 +255,38 @@ int main() {
     sort(arr, arr+5);
 }
 ```
+
+### Dictionary/maps
+
+Declaring and using a dictionary:
+```cpp
+#include <map>
+using namespace std;
+
+int main() {
+    map<int,int> dict;
+
+    // set a value in the map
+    dict[3] = 5;
+
+    // increase a value in the map
+    dict[3] += 1;
+
+    // check if a value exists in the map
+    if (dict.contains(4)) {
+        cout << "found 4" << "\n";
+    } else {
+     cout << "didn't find 4" << "\n";
+    }
+
+    // store int,char instead
+    map<int,char> another_dict;
+    another_dict[2] = 'a';
+
+    // store char, int instead
+    map<char,int> last_dict;
+    last_dict['b'] = 3;
+}
+```
+
+The default value in a cpp dictionary is 0, i.e. if you try find a key that doesn't exist, the value is 0.
