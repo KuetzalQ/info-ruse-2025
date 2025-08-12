@@ -242,7 +242,7 @@ This counts the frequency of N numbers. Each number must be <= 99999. The counte
 ```
 Then `counter[3] = 3`, `counter[4] = 1`, `counter[7] = 1` and `counter[1] = 0`.
 
-### Sorting
+## Sorting
 This sorts all the numbers in the array. `arr+5` is where you want to sort up to. If you only wanted to sort the first 3 numbers, you could use `arr+3` instead.
 
 ```c++
@@ -256,9 +256,9 @@ int main() {
 }
 ```
 
-### Dictionary/maps
+## Dictionary/maps
 
-Declaring and using a dictionary:
+### Declaring and using a dictionary:
 ```cpp
 #include <map>
 using namespace std;
@@ -290,3 +290,17 @@ int main() {
 ```
 
 The default value in a cpp dictionary is 0, i.e. if you try find a key that doesn't exist, the value is 0.
+
+### To iterate through a map:
+```cpp
+
+map<int,int> m;
+m[3] = 5;
+m[2] = 1;
+m[1] = 7;
+
+for (auto x : m) {
+    cout << x.first << " " << x.second << "\n";
+}
+
+```
